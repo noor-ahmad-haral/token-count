@@ -1,7 +1,7 @@
 import streamlit as st
 import tiktoken
 
-st.set_page_config(page_title='Token Counter', page_icon='📚', layout='wide')
+st.set_page_config(page_title='Token Counter', page_icon='🎃', layout='wide')
 
 enc = tiktoken.get_encoding("cl100k_base")
 
