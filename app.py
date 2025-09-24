@@ -10,6 +10,12 @@ st.markdown("---")
 
 st.write("This tool counts the number of tokens in a given text. To use it, type or paste your text in the text box below and click the 'Calculate' button.")
 
+# --- Highlighted CTA with green success box ---
+st.success(
+    "🚀 Try the **new & improved [Token Counter](https://noorahmadharal.com/tools/token-counter)** "
+    "with faster performance and extra features!"
+)
+
 text_input = st.text_area("Type or paste your text here...", height=200)
 centered_button = st.button("Calculate", key="calculate")
 
