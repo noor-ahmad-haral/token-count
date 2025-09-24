@@ -10,10 +10,10 @@ st.markdown("---")
 
 st.write("This tool counts the number of tokens in a given text. To use it, type or paste your text in the text box below and click the 'Calculate' button.")
 
-# --- Add your tool promotion right after description ---
-st.info(
-    "✅ Looking for an updated Token Counter with more features? "
-    "Check out 👉 **[Token Counter](https://noorahmadharal.com/tools/token-counter)**"
+# --- Highlighted CTA with green success box ---
+st.success(
+    "🚀 Try the **new & improved [Token Counter](https://noorahmadharal.com/tools/token-counter)** "
+    "with faster performance and extra features!"
 )
 
 text_input = st.text_area("Type or paste your text here...", height=200)
